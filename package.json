@@ -1,0 +1,19 @@
+{
+  "name": "init-package-json",
+  "version": "1.0.0",
+  "description": "node package module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skipper09/LIRI-Node-App.git"
+  },
+  "author": "Sarah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skipper09/LIRI-Node-App/issues"
+  },
+  "homepage": "https://github.com/skipper09/LIRI-Node-App#readme"
+}
