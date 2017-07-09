@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/skipper09/LIRI-Node-App/issues"
   },
-  "homepage": "https://github.com/skipper09/LIRI-Node-App#readme"
+  "homepage": "https://github.com/skipper09/LIRI-Node-App#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.5",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
 }
