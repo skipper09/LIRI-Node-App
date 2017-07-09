@@ -34,7 +34,7 @@ function runProgram() {
     } else if (userInput === "spotify-this-song") {
 
         if (userSearch == undefined) {
-            userSearch = "The Ace"
+            userSearch = "The Sign Ace"
         }
 
         spotify.search({ type: 'track', query: userSearch, limit: 1 }, function(err, data) {
@@ -72,7 +72,16 @@ function runProgram() {
                 country = movieData.Country,
                 language = movieData.Language;
 
-            console.log(`\n Title: ${title} \n Year: ${year} \n IMDB Rating: ${IMDBrating} \n Rotten Tomatoes Rating: ${RTrating} \n Plot: ${plot} \n Actors: ${actors} \n Country: ${country} \n Language: ${language} \n`)
+            console.log(`
+Title: ${title}
+Year: ${year}
+IMDB Rating: ${IMDBrating}
+Rotten Tomatoes Rating: ${RTrating}
+Plot: ${plot}
+Actors: ${actors}
+Country: ${country}
+Language: ${language}
+                `)
         });
     };
 }
