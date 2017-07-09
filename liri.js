@@ -48,7 +48,7 @@ if (userInput === "my-tweets") {
         var album = data.tracks.items[0].album.name;
 
         console.log("\n Artist: " + artist + "\n Song: " + songName + "\n Link: " + link + "\n Album: " + album + "\n");
-        console.log(`artist: ${artist} \n song: ${songName}`)
+        // console.log(`artist: ${artist} \n song: ${songName}`)
 
     });
 
@@ -66,9 +66,16 @@ if (userInput === "my-tweets") {
 
         var movieData = JSON.parse(body);
 
-        var title 
+        var title = movieData.Title,
+            year = movieData.Year,
+            IMDBrating = movieData.Ratings[0].Value,
+            RTrating = movieData.Ratings[1].Value,
+            plot = movieData.Plot,
+            actors = movieData.Actors,
+            country = movieData.Country,
+            language = movieData.Language;
 
-        console.log(movieData);
+        console.log(`\n Title: ${title} \n Year: ${year} \n IMDB Rating: ${IMDBrating} \n Rotten Tomatoes Rating: ${RTrating} \n Plot: ${plot} \n Actors: ${actors} \n Country: ${country} \n Language: ${language} \n`)
     });
 
 } else if (userInput === "do-what-it-says") {
