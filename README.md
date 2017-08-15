@@ -5,7 +5,7 @@ Users specify one of four commands.
 
 "My-tweets" will return tweets from the user's linked twitter account.
 
-![A screenshot](http://i301.photobucket.com/albums/nn65/reversethis/Screen%20Shot%202017-08-14%20at%209.53.56%20PM.png)
+![A screenshot](http://i301.photobucket.com/albums/nn65/reversethis/Screen%20Shot%202017-08-14%20at%209.49.44%20PM_1.png)
 
 "Spotify-this-song" will search spotify for the song entered after the command and display the first result. If no song is entered, the song "Ace of Base" will be returned to the user. 
 
