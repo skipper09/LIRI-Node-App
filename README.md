@@ -19,5 +19,5 @@ If "do-what-it-says" is entered, the app will read from the file "random.txt" an
 
 ![Another screenshot](http://i301.photobucket.com/albums/nn65/reversethis/Screen%20Shot%202017-08-14%20at%209.54.52%20PM.png)
 
-![Another screenshot](http://i301.photobucket.com/albums/nn65/reversethis/Screen%20Shot%202017-08-14%20at%209.53.56%20PM.png)
+![Another screenshot](http://i301.photobucket.com/albums/nn65/reversethis/Screen%20Shot%202017-08-14%20at%209.54.42%20PM.png)
 
